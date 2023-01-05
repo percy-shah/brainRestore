@@ -1,4 +1,4 @@
-* {
+html{
     background-color: #E7F2EF;
 }
 .header{
@@ -11,8 +11,8 @@
 }
 .headerNav{
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 50px;
+    margin-left: 50px;
    
 }
 .navbar-brand{
@@ -26,6 +26,9 @@
 }
 .navbar-nav{
     display: inline-block;
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 24px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -60,31 +63,228 @@ li a, .dropbtn {
 .dropdown-menu a:hover {background-color: #F2EDEB;}
 
 .bigLogo{
-    padding-left: 38px;
+    padding-left: 150px;
+}
+.intro{
+    margin: auto;
+    width: 1400px;
+    height:645px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:150px;
+}
+.intro div{
+   width: 600px;
+   height: 550px;
 }
 .intro button{
     display: flex;
     color:white;
     background-color: #53C9B4;
-    width: 109.5px;
-    height: 34.5px;
     justify-content: center;
     border-style: none;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 20px;
-    padding: 20px;
+    padding: 12px 28px;
     border-radius:40px;
-
-
+    font-size: 26px;
+    margin-left: 300px;
+    margin-top: 40px;
 }
-
 .intro p{
-    display: block;
     font-family: 'Raleway', sans-serif;
     line-height: 50px;
+    font-size: 24px;
     font-weight: 500;
-    padding: 40px;
-    inline-size:450px;
+    padding-left: 150px;
+    padding-top: 40px;
+    inline-size:520px;
 }
 
+.mission{
+ background-image:linear-gradient(#C8F6AA, #7AAC75);
+ background-color:#E7F2EF;
+ height: 522px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ background-position: center;
+}
+.headerContent p{
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Raleway'serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 50px;
+  inline-size: 1300px;
+}
+.headerContent h3{
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: italic;
+    padding-left: 180px;
+    padding-top: 140px;
+}
+.mission a{
+    font-family: 'Raleway', serif;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    right: 75px;
+    
+}
+.doc1{
+    position: absolute;
+    top: 1330px;
+    left: 107px;
+    z-index: 1;
+}
+.doc2{
+    position: absolute;
+    top: 1900px;
+    left: 30;
+    z-index: 3;
+}
+.doctorInfo{
+    padding-left:45em;
+    padding-bottom: 350px;
 
+}
+.doctorInfo h3{
+    font-family: 'Raleway', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.doctorInfo h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.doctorInfo p{
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 40px;
+    inline-size:650px;
+}
+
+.doctorInfo button{
+    display: flex;
+    color:white;
+    background-color: #53C9B4;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 12px 28px;
+    border-radius:40px;
+    font-size: 26px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
+.greenBg{
+    background-image:linear-gradient( #43785B,#BBDDA5);
+    background-repeat: no-repeat;
+    height: 277px;
+    width: 625px;
+    position: absolute;
+    top: 2425px;
+    left: 850px;
+}
+.greenBg h3{
+    font-family: 'Raleway', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.greenBg p{
+    font-family: 'Raleway', serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.greenBg button{
+    display: flex;
+    text-align: center;
+    color:white;
+    background-color: #53C9B4;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 12px 28px;
+    border-radius:40px;
+    font-size: 26px;
+    margin-left: 230px;
+    margin-bottom: 100px;
+}
+.resources h2{
+    font-family: 'Raleway', serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+.picContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 150px;
+}
+.picContent p{
+    font-family: 'Raleway', serif;
+    font-weight:500;
+    font-size: 24px;
+    inline-size:310px;
+    text-align: center;
+    margin-left: 25px;
+    padding: 10px;
+}
+footer{
+    background-image: url(ketaminePics/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    font-weight:500;
+}
+.footerLogo{
+    margin-left: 100px;
+    padding-top: 30px;
+}
+footer ul{
+    list-style: none;
+    line-height: 50px;
+    padding-left: 250px;
+
+}
+footer .col{
+    display: flex;
+
+}
+#copyright{
+    padding-right: 550px;
+}
+
+.bottomText{
+    display: flex;
+    gap: 20px;
+
+}
+hr.solid {
+    border-top: 1px solid black;
+    padding-bottom: 100px;
+}
